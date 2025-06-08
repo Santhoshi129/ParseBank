@@ -10,7 +10,7 @@ The application is deployed on Hugging Face Spaces and is accessible here:
 
 ## 🔍 Features
 
-- **File Upload & Parsing**: Upload PDF, image, or CSV bank statements and extract transaction tables using OCR and pattern recognition.
+- **File Upload & Parsing**: Upload PDF statements and extract transaction tables using OCR and pattern recognition.
 - **Transaction Extraction**: Captures key fields such as `Date`, `Description`, `Amount`, `Type`, and `Balance`.
 - **Data Cleaning & Formatting**: Cleans extracted tables for consistent formatting using Pandas.
 - **Export Capability**: Allows users to download the parsed data as a CSV file.
@@ -21,17 +21,13 @@ The application is deployed on Hugging Face Spaces and is accessible here:
 ## 📂 Files Overview
 
 - `app.py`: Main script containing the Streamlit UI and integration logic for upload, parse, and display.
-- `parser.py`: Contains the parsing logic using PDF reading and OCR (e.g., PyMuPDF, pdfplumber, or pytesseract).
 - `requirements.txt`: Python libraries needed for the application.
-- `utils.py`: Utility functions for cleaning, formatting, and validating data.
-- `sample_statements/`: Directory for testing with sample bank statement files (PDF, CSV, images).
-
+  
 ---
 
 ## ⚙️ Setup & Installation
 
-### Step 1: Clone the Repository
-```bash
+## Step 1: Clone the Repository
 git clone https://github.com/Subhasya/ParseBank.git
 cd ParseBank
 
