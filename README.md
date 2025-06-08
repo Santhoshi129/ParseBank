@@ -28,7 +28,7 @@ The application is deployed on Hugging Face Spaces and is accessible here:
 ## ⚙️ Setup & Installation
 
 ## Step 1: Clone the Repository
-git clone https://github.com/Subhasya/ParseBank.git
+git clone https://github.com/Santhoshi129/ParseBank.git
 cd ParseBank
 
 ---
