@@ -35,15 +35,15 @@ The application is deployed on Hugging Face Spaces and is accessible here:
 git clone https://github.com/Subhasya/ParseBank.git
 cd ParseBank
 
-### Step 2: Install Dependencies
+## Step 2: Install Dependencies
 ```bash
 pip install -r requirements.txt
 
-### Step 3: Run the Application
+## Step 3: Run the Application
 ```bash
 streamlit run app.py
 
-### Step 4: Use the Interface
+## Step 4: Use the Interface
 Open the local server link (typically http://localhost:8501).
 
 Upload your bank statement file.
